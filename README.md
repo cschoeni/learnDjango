@@ -97,6 +97,7 @@ Erstelle mit Models deine Datenbank Modelle. Gehe in einem ersten Schritt nach d
 
 
 
+
 #### Interessante Webseiten
 [Offizielle Django Webseite (free)](https://www.djangoproject.com/)
 [Django Girls Tutorial (free)](https://tutorial.djangogirls.org/de/)
