@@ -82,6 +82,19 @@ Schau dir die [Anleitung von Django im Beispielprojekt Polls an](https://docs.dj
 2. In diesem musst du dein Projekt hinzufügen. 
 3. So sieht es korrekt aus: 
 
+<!-- TODO: Settings -->
+<!-- TODO: Models -->
+<!-- TODO: Admin -->
+<!-- TODO: Views -->
+
+
+
+
+
+
+
+
+
 
 
 
