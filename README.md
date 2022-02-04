@@ -51,3 +51,70 @@ Für die Entwicklung benötigst du natürlich auch die Software, auf der du dein
 <img src="images/print_screen_google_chrome_dev_console.png"
      alt="Print Screen from Google Chrome Developer Console"
      style="float: left; margin-right: 10px; margin-bottom: 20px; margin-top: 20px;" />
+
+
+## Lektion 3 - Aufbau des Projektes anschauen (lession-3_view_the_structure_of_the_django_project)
+In dieser Lektion wollen wir uns mal das Projekt erstellen und anschliessend mal anschauen was sich da drin so alles verbirgt. Denn Django ist nicht wie normalerweise in JS bekannte Bibliothek, die dann von 0 an aufgebaut wird, sondern ein bereits funktionierende Webanwendung. Mit etwas Code erhälst du bereits ein Login und die Möglichkeit Daten zu erfassen. 
+
+### Django Projekt erstellen
+Erstelle ein neues Projekt mithilfe des Befehls ```django-admin```. 
+
+1. Gebe folgenden Befehl ``` django-admin startproject mySchool ```für ein neues Projekt ein.
+2. Anschliessend erstellt dir django-admin in deinem Ordner ein neues Projekt mit dem mySchool
+3. Anschliessend kannst du mit cd ```mySchool``` in den Ordner wechseln. 
+4. Dieser Ordner wird dann das Projekt und deine Apps beinhalten. 
+
+
+## Django App erstellen
+Das Projekt beinhaltet deine jeweiligen Apps. Was genau ein App ist, werde ich dir noch erklären. 
+
+1. Erstelle ein neues App mit dem Befehl ```python manage.py startapp students ```. 
+
+Anschliessend erstellen wir für den Administrativen Zugriff im Admin UI einen Benutzer. 
+
+Aufgabe (Superuser)
+> Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
+
+## Django App registrieren
+Schau dir die [Anleitung von Django im Beispielprojekt Polls an](https://docs.djangoproject.com/en/4.0/ref/applications/#configuring-applications). 
+
+1. Dort siehst du, dass im Projektordner settings.py findst. 
+2. In diesem musst du dein Projekt hinzufügen. 
+3. So sieht es korrekt aus: 
+
+
+
+
+#### Interessante Webseiten
+[Offizielle Django Webseite (free)](https://www.djangoproject.com/)
+[Django Girls Tutorial (free)](https://tutorial.djangogirls.org/de/)
+[Django on Udemy (premium)](https://www.udemy.com/courses/search/?src=ukw&q=Django)
+
+#### Video Tutorials
+[Django Tutorial auf Deutsch](https://www.youtube.com/watch?v=3_cNvo2_iUo&list=PLva9kPwWCvPsHqeAeoSxji6EZeZim9uZn)
+[Python Django 7 Hour Course](https://www.youtube.com/watch?v=PtQiiknWUcI&t=166s)
+[Python Tutorial Deutsch (Komplettkurs) - Python lernen in unter 4 Stunden](https://www.youtube.com/watch?v=RBpK8C3N-Y8)
+
+#### Django Tutorials
+[Django Girls Tutorial](https://tutorial.djangogirls.org/de/)
+
+#### Django Blogs
+[Schweizer Django Blog](https://www.djangoblog.ch/de/django/django-superkraft-eine-crud-web-app-in-60-minuten-teil-1/)5
+[Silicon Valley Kids - Django Blog](https://www.sivakids.de/python-django/)
+[Tutorial: Erste Schritte mit dem Django-Webframework in Visual Studio](https://docs.microsoft.com/de-de/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution?view=vs-2022)
+
+
+
+## Lösung
+Die Lösungen zu den Fragen, die ich oben gestellt habe.
+
+### Aufgabe (Superuser)
+Der Befehl ```django-admin createsuperuser``` startet ein Script, dass dir einige Fragen stellt. 
+1. Als erstes musst du nach dem drücken der Enter Taste ein Benutzername eingeben
+2. Danach will er eine E-Mail Adresse von dir. 
+3. Anschliessend ein Kennwort und das nach dem betätigen nochmals eingeben. 
+
+> Achtung: Du wirst das Kennwort nicht sehen (Auf derm Terminal werden beim eintippen eines Kennworts nicht dargestellt).
+
+Quelle: [django-admin and manage.py¶ - createsuperuser](https://docs.djangoproject.com/en/4.0/ref/django-admin/#django-admin-createsuperuser)
+
