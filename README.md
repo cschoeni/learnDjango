@@ -75,20 +75,22 @@ Anschliessend erstellen wir für den Administrativen Zugriff im Admin UI einen B
 Aufgabe (Superuser)
 > Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
 
-## Django App registrieren
-Schau dir die [Anleitung von Django im Beispielprojekt Polls an](https://docs.djangoproject.com/en/4.0/ref/applications/#configuring-applications). 
 
-1. Dort siehst du, dass im Projektordner settings.py findst. 
-2. In diesem musst du dein Projekt hinzufügen. 
-3. So sieht es korrekt aus: 
+### settings.py
+In Settings kannst du Einstellungen für dein Projekt vornehmen. Dazu Wirst du in deiner Entwickler Karriere immer mal wieder etwas in dein Projekt hinzufügen, dass du dann aufgefordert wirst die Informationen zu den Einstellungen in settings entweder hinzuzufügen oder aber zu ändern. 
 
-<!-- TODO: Settings -->
-<!-- TODO: Models -->
-<!-- TODO: Admin -->
-<!-- TODO: Views -->
+### urls.py
+In Urls wirst du in Zukunft deine Routes hinzufügen. Mit Routes ist es erst möglich später Seiten über Links aufzurufen. Ich habe dir dafür mal ein Beispiel hinzugefügt. 
 
+##### Beispiel von Routes:
+```bash 
+/ 
+/shop
+/kontakte
+/ueber_uns
 
-
+https://meine_domain.ch/[das ist das routing]
+```
 
 
 

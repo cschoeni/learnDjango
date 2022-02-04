@@ -16,3 +16,19 @@
 ## Lektion - Template hinzufügen
 ## Lektion - HTML Seiten hinzufügen
 ## Lektion - Daten aus dem Django Projekt im HTML ausgeben.
+
+
+## Django App registrieren
+Schau dir die [Anleitung von Django im Beispielprojekt Polls an](https://docs.djangoproject.com/en/4.0/ref/applications/#configuring-applications). 
+
+1. Dort siehst du, dass im Projektordner settings.py findst. 
+2. In diesem musst du dein Projekt hinzufügen. 
+3. So sieht es korrekt aus: 
+
+<!-- TODO: Settings -->
+<!-- TODO: Models -->
+<!-- TODO: Admin -->
+<!-- TODO: Views -->
+
+
+
