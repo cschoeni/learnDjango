@@ -84,16 +84,14 @@ Das Projekt beinhaltet deine jeweiligen Apps. Was genau ein App ist, werde ich d
 
 1. Erstelle ein neues App mit dem Befehl ```python manage.py startapp students ```. 
 
+<img src="images/print_screen_create_app_in_terminal.png"
+     alt="Print Screen from Google Chrome Developer Console"
+     style="float: left; margin-right: 10px; margin-bottom: 20px; margin-top: 20px;" />
+
 Anschliessend erstellen wir für den Administrativen Zugriff im Admin UI einen Benutzer. 
 
 Aufgabe (Superuser)
 > Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
-
-
-## Lektion 5 - Das Model für dein App erstellen (lesson-5_add_models_for_students_app)
-Erstelle mit Models deine Datenbank Modelle. Gehe in einem ersten Schritt nach dem Thema im Unterricht auf folgendes Video. Versuche selbst mal ein oder zwei Models zu erstellen. 
-
-[Django Models](https://www.youtube.com/watch?v=5zNR3E6WRLE)
 
 
 
