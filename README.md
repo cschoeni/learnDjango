@@ -65,7 +65,21 @@ Erstelle ein neues Projekt mithilfe des Befehls ```django-admin```.
 4. Dieser Ordner wird dann das Projekt und deine Apps beinhalten. 
 
 
-## Django App erstellen
+### settings.py
+In Settings kannst du Einstellungen für dein Projekt vornehmen. Dazu Wirst du in deiner Entwickler Karriere immer mal wieder etwas in dein Projekt hinzufügen, dass du dann aufgefordert wirst die Informationen zu den Einstellungen in settings entweder hinzuzufügen oder aber zu ändern. 
+
+### urls.py
+In Urls wirst du in Zukunft deine Routes hinzufügen. Mit Routes ist es erst möglich später Seiten über Links aufzurufen. Ich habe dir dafür mal ein Beispiel hinzugefügt. 
+
+##### Beispiel von Routes:
+```
+/ 
+/shop
+/kontakte
+/ueber_uns
+```
+
+## Lektion 4 - Django App erstellen und in Settings registrieren (lesson-4_create_my_first_app)
 Das Projekt beinhaltet deine jeweiligen Apps. Was genau ein App ist, werde ich dir noch erklären. 
 
 1. Erstelle ein neues App mit dem Befehl ```python manage.py startapp students ```. 
@@ -74,23 +88,6 @@ Anschliessend erstellen wir für den Administrativen Zugriff im Admin UI einen B
 
 Aufgabe (Superuser)
 > Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
-
-
-### settings.py
-In Settings kannst du Einstellungen für dein Projekt vornehmen. Dazu Wirst du in deiner Entwickler Karriere immer mal wieder etwas in dein Projekt hinzufügen, dass du dann aufgefordert wirst die Informationen zu den Einstellungen in settings entweder hinzuzufügen oder aber zu ändern. 
-
-### urls.py
-In Urls wirst du in Zukunft deine Routes hinzufügen. Mit Routes ist es erst möglich später Seiten über Links aufzurufen. Ich habe dir dafür mal ein Beispiel hinzugefügt. 
-
-##### Beispiel von Routes:
-```bash 
-/ 
-/shop
-/kontakte
-/ueber_uns
-
-https://meine_domain.ch/[das ist das routing]
-```
 
 
 

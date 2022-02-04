@@ -1,6 +1,6 @@
 # Backend
 ## Lektion 3 - Aufbau des Projektes anschauen
-## Lektion 4 - Ein App erstellen
+## Lektion 4 - Ein App erstellen und registrieren
 ## Lektion 5 - Das Model für dein App erstellen 
 ## Lektion 6 - Django Admin vorbereiten
 ## Lektion 7 - Daten hinzufügen
