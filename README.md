@@ -52,7 +52,7 @@ Für die Entwicklung benötigst du natürlich auch die Software, auf der du dein
      alt="Print Screen from Google Chrome Developer Console"
      style="float: left; margin-right: 10px; margin-bottom: 20px; margin-top: 20px;" />
 
-## Lektion 2 - Django Projekt erstellen
+## Lektion 2 - Django Projekt erstellen (lession-2_create_django_project)
 
 ### Ertelle deine Environment
 Damit wir nun unser Django Projekt erstellen können, benötigt es einmal eine Evnironemnt. 
@@ -98,3 +98,11 @@ Sobald wir in der Environment sind, können wir das im Terminal sehen.
 3. Erstell ein Projekt mit dem Befehl ``` django-admin.py startproject project1 ```
 4. Mit dem Befehl ``` python manage.py runserver ``` kannst du den Server starten. 
 
+
+Sobald Django auf deiner Environment installiert ist, kannst du sehen welche Funktionen ```django-admin``` bietet.
+
+<img src="images/print_screen_install_django.png"
+     alt="Beispiel wenn django-admin nicht Installiert und nachdem Django installiert ist."
+     style="float: left; margin-right: 10px; margin-bottom: 10px; margin-top: 10px;" />
+
+Somit ist unsere Environment bereit für das erste Projekt. 

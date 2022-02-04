@@ -1,14 +1,15 @@
-## Lektion 2 - Projekt erstellen
+
 
 # Backend
-## Lektion 3 - Aufbau des Projektes anschauen
-## Lektion 4 - Ein App erstellen
-## Lektion 5 - Das Model für dein App erstellen 
-## Lektion 6 - Django Admin vorbereiten
-## Lektion 7 - Daten hinzufügen
-## Lektion 8 - Tests mit SQL
-## Lektion 9 - API Packages installieren
-## Lektion 9 - Tests mit API 
+## Lektion 3 - Projekt erstellen
+## Lektion 4 - Aufbau des Projektes anschauen
+## Lektion 5 - Ein App erstellen
+## Lektion 6 - Das Model für dein App erstellen 
+## Lektion 7 - Django Admin vorbereiten
+## Lektion 8 - Daten hinzufügen
+## Lektion 9 - Tests mit SQL
+## Lektion 10 - API Packages installieren
+## Lektion 11 - Tests mit API 
 
 
 # Frontend 
