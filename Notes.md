@@ -17,6 +17,15 @@
 ## Lektion - HTML Seiten hinzufügen
 ## Lektion - Daten aus dem Django Projekt im HTML ausgeben.
 
+## Django App erstellen
+Das Projekt beinhaltet deine jeweiligen Apps. Was genau ein App ist, werde ich dir noch erklären. 
+
+1. Erstelle ein neues App mit dem Befehl ```python manage.py startapp students ```. 
+
+Anschliessend erstellen wir für den Administrativen Zugriff im Admin UI einen Benutzer. 
+
+Aufgabe (Superuser)
+> Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
 
 ## Django App registrieren
 Schau dir die [Anleitung von Django im Beispielprojekt Polls an](https://docs.djangoproject.com/en/4.0/ref/applications/#configuring-applications). 
