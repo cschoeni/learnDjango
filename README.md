@@ -90,10 +90,10 @@ Aufgabe (Superuser)
 > Welcher Befehl muss für das erstellen eines Superusers verwendet werden?
 
 
+## Lektion 5 - Das Model für dein App erstellen (lesson-5_add_models_for_students_app)
+Erstelle mit Models deine Datenbank Modelle. Gehe in einem ersten Schritt nach dem Thema im Unterricht auf folgendes Video. Versuche selbst mal ein oder zwei Models zu erstellen. 
 
-
-
-
+[Django Models](https://www.youtube.com/watch?v=5zNR3E6WRLE)
 
 
 
