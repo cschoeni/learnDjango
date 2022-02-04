@@ -1,5 +1,3 @@
-## Lektion 2 - Projekt erstellen
-
 # Backend
 ## Lektion 3 - Aufbau des Projektes anschauen
 ## Lektion 4 - Ein App erstellen
