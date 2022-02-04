@@ -6,13 +6,17 @@ Diese Projekt ist für das Verständis zum Programmieren erstellt worden. Wir we
 ### Python 
 Damit wir mit Python etwas programmieren können, benötigst du Python auf deinem Computer. Dies kannst du einfach installieren gehen. Gehe dazu auf https://www.python.org/downloads/ und installiere dir die neuste stabile Version herunter.
 
-
 <img src="images/print_screen_python_on_terminal.png"
-     alt="Markdown Monster icon"
+     alt="Print Screen von Terminal mit aktivem Python zum überprüfen ob Python installiert ist."
      style="float: left; margin-right: 10px;" />
 
 ### Python Environment 
+
 Damit wir nicht unnötig Packages auf dem PC installieren, die wir vieleicht nur einmal in einem Projekt benötigen, können wir mit einer Python Environment arbeiten. Diese stellt und Virtuall eine Python Umgebung bereit. In dieser können wir Packete installieren und normal an einem Projekt arbeiten, ohne dass wir Packete auf dem PC direkt installieren. 
+
+<img src="images/virtual_environments_in_python_3.png"
+     alt="Bild das aufzeigt, wie PIP von einem Python über die Environement jeweils eine eigene Instanz erstellt."
+     style="float: left; margin-right: 10px; margin-bottom: 20px; margin-top: 20px;" />
 
 Hast du ein neues Projekt so kannst du in den Ordner des neuen Projektes gehen, eine neue Environment anlegen und in dieser andere Pakete installieren. 
 
@@ -21,19 +25,29 @@ Zudem hilft es sehr, wenn an deinem Projekt mehrere Personen arbeiten. Denn wenn
 Mithilfe dieser Environment hat jeder die gleiche voraussetzung, egal auf welchem Gerät das Projekt ausgeführt wird. 
 
 ### Vorgehen bei Windows
-1. Öffne die Eingabeaufforderung
-2. Füge das ``` py -m ensurepip --upgrade ``` hinein
-3. Drücke die Enter Taste
+1. Gehe nach dieser [Anleitung](https://www.liquidweb.com/kb/install-pip-windows/) zur Installation von PIP.
 
-### Vorgehen bei OSX / Linux
+### Aufgabe
+##### Vorgehen bei OSX / Linux
 1. Öffne ein Terminal 
 2. Füge das im Terminal ein ``` python -m ensurepip --upgrade ```
 3. Drücke die Enter Taste
 
-
-
-### Visual Code Studio
+##### Visual Code Studio
 Wir könnten eigentlich das Projekt in einem normalen Editor schreiben. Damit es jedoch ein bischen Einfacher ist und weniger Fehler gemacht werden, hilft hier ein Code Editor oder eine IDE. 
 
 In unserem Beispiel arbeiten wir mit Visual Code Studio. Es gibt aber noch einen haufen anderer Anwendungen die für Pyton verwendet werden können. Sehe dir mal dazu diesen link an. [Verfügbare IDE's](https://en.wikipedia.org/wiki/Source-code_editor)
 
+### Aufgabe
+#### Vorgehen für Windows & OSX / Linux
+1. Gehe auf die Webseite von[Visual Studio Code](https://code.visualstudio.com/)
+2. Lade die letze Verion herunter
+3. Installiere nun Visual Studio Code auf deinem PC. Das Installationspaket findest du in deinem Download Ordner.
+
+
+## Browser
+Für die Entwicklung benötigst du natürlich auch die Software, auf der du dein Ergebnis siehst. Das kann Chrome, Firefox oder einfach dein EdgeBrowser sein. Wichtig er sollte über eine Entwickler Konsole verfügen. 
+
+<img src="images/print_screen_google_chrome_dev_console.png"
+     alt="Print Screen from Google Chrome Developer Console"
+     style="float: left; margin-right: 10px; margin-bottom: 20px; margin-top: 20px;" />
