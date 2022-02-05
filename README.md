@@ -95,7 +95,9 @@ Erstelle mit Models deine Datenbank Modelle. Gehe in einem ersten Schritt nach d
 
 [Django Models](https://www.youtube.com/watch?v=5zNR3E6WRLE)
 
-
+Mit dem befehl ```pip install -r requirements.txt``` kannst du alle Packete auf einmal installieren. 
+Beachte jedoch, dass du dich in diesem Ordner befindest, in dem das File abgelegt ist. In meinem Fall ist das in mySchool.
+ 
 
 
 #### Interessante Webseiten
